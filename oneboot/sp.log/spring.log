@@ -1,0 +1,224 @@
+2021-10-13 13:05:45.817  INFO 3204 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_172 on DESKTOP-9MOAM0L with PID 3204 (E:\shixun\springboot\oneboot\target\classes started by ASD in E:\shixun\springboot\oneboot)
+2021-10-13 13:05:45.824  INFO 3204 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-13 13:05:45.903  INFO 3204 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-10-13 13:05:47.639  INFO 3204 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-13 13:05:47.641  INFO 3204 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-13 13:05:47.698  INFO 3204 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 0 Redis repository interfaces.
+2021-10-13 13:05:47.931  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.xiexin.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$4089debb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:05:48.012  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:05:48.015  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$6cfcb228] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:05:48.018  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$53d4566a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:05:48.019  INFO 3204 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-13 13:05:48.084  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:05:48.212  INFO 3204 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-10-13 13:05:48.212  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:05:48.221  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:05:48.608  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:05:48.612  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:05:48.613  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'adminDAO' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:05:48.615  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'adminDAO' of type [com.sun.proxy.$Proxy55] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:05:48.616  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'adminService' of type [com.xiexin.service.AdminServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:05:48.616  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getMybatisRealm' of type [com.xiexin.shiro.MybatisRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:05:49.115  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getSecurityManger' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:05:49.575  INFO 3204 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-13 13:05:49.583  INFO 3204 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-13 13:05:49.583  INFO 3204 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-13 13:05:49.668  INFO 3204 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-13 13:05:49.668  INFO 3204 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3763 ms
+2021-10-13 13:05:49.693 DEBUG 3204 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105, getFilter urls=[/*] order=2147483647
+2021-10-13 13:05:49.693 DEBUG 3204 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-13 13:05:49.954 DEBUG 3204 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-13 13:05:49.996 DEBUG 3204 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 13 mappings in 'requestMappingHandlerMapping'
+2021-10-13 13:05:49.999  INFO 3204 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-13 13:05:50.015 DEBUG 3204 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-13 13:05:50.020 DEBUG 3204 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-13 13:05:50.401  INFO 3204 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-13 13:05:50.425  INFO 3204 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-13 13:05:50.433  INFO 3204 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 5.224 seconds (JVM running for 6.702)
+2021-10-13 13:06:12.669  INFO 3204 --- [Thread-13] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2021-10-13 13:06:12.670  INFO 3204 --- [Thread-13] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-10-13 13:06:12.812  INFO 3204 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_172 on DESKTOP-9MOAM0L with PID 3204 (E:\shixun\springboot\oneboot\target\classes started by ASD in E:\shixun\springboot\oneboot)
+2021-10-13 13:06:12.813  INFO 3204 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-13 13:06:12.955  INFO 3204 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-13 13:06:12.955  INFO 3204 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-13 13:06:12.968  INFO 3204 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2021-10-13 13:06:12.999  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.xiexin.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$4089debb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:13.012  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:13.014  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$6cfcb228] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:13.016  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$53d4566a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:13.016  INFO 3204 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-13 13:06:13.022  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:13.045  INFO 3204 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2021-10-13 13:06:13.045  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:13.051  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:13.108  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:13.109  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:13.110  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'adminDAO' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:13.111  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'adminDAO' of type [com.sun.proxy.$Proxy82] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:13.111  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'adminService' of type [com.xiexin.service.AdminServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:13.111  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getMybatisRealm' of type [com.xiexin.shiro.MybatisRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:13.114  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getSecurityManger' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:13.161  INFO 3204 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-13 13:06:13.162  INFO 3204 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-13 13:06:13.162  INFO 3204 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-13 13:06:13.180  INFO 3204 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-13 13:06:13.180  INFO 3204 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 366 ms
+2021-10-13 13:06:13.185 DEBUG 3204 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105, getFilter urls=[/*] order=2147483647
+2021-10-13 13:06:13.185 DEBUG 3204 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-13 13:06:13.221 DEBUG 3204 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-13 13:06:13.227 DEBUG 3204 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
+2021-10-13 13:06:13.230  INFO 3204 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-13 13:06:13.235 DEBUG 3204 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-13 13:06:13.239 DEBUG 3204 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-13 13:06:13.271  INFO 3204 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-13 13:06:13.280  INFO 3204 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-13 13:06:13.284  INFO 3204 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 0.496 seconds (JVM running for 29.553)
+2021-10-13 13:06:13.285  INFO 3204 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-13 13:06:15.456  INFO 3204 --- [Thread-19] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closing ...
+2021-10-13 13:06:15.456  INFO 3204 --- [Thread-19] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2021-10-13 13:06:15.625  INFO 3204 --- [restartedMain] com.xiexin.SmartfoodApplication          : Starting SmartfoodApplication using Java 1.8.0_172 on DESKTOP-9MOAM0L with PID 3204 (E:\shixun\springboot\oneboot\target\classes started by ASD in E:\shixun\springboot\oneboot)
+2021-10-13 13:06:15.626  INFO 3204 --- [restartedMain] com.xiexin.SmartfoodApplication          : No active profile set, falling back to default profiles: default
+2021-10-13 13:06:15.774  INFO 3204 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-10-13 13:06:15.774  INFO 3204 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-10-13 13:06:15.786  INFO 3204 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-10-13 13:06:15.813  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.xiexin.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$4089debb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:15.822  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:15.823  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$6cfcb228] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:15.824  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$53d4566a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:15.824  INFO 3204 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-10-13 13:06:15.828  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:15.843  INFO 3204 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} inited
+2021-10-13 13:06:15.843  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:15.849  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:15.894  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:15.895  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:15.896  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'adminDAO' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:15.897  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'adminDAO' of type [com.sun.proxy.$Proxy88] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:15.897  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'adminService' of type [com.xiexin.service.AdminServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:15.897  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getMybatisRealm' of type [com.xiexin.shiro.MybatisRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:15.899  INFO 3204 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getSecurityManger' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-10-13 13:06:15.929  INFO 3204 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-10-13 13:06:15.929  INFO 3204 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-13 13:06:15.929  INFO 3204 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-13 13:06:15.946  INFO 3204 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-13 13:06:15.946  INFO 3204 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 318 ms
+2021-10-13 13:06:15.950 DEBUG 3204 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105, getFilter urls=[/*] order=2147483647
+2021-10-13 13:06:15.950 DEBUG 3204 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-10-13 13:06:15.989 DEBUG 3204 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-13 13:06:15.995 DEBUG 3204 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 14 mappings in 'requestMappingHandlerMapping'
+2021-10-13 13:06:15.998  INFO 3204 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-10-13 13:06:16.002 DEBUG 3204 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-13 13:06:16.005 DEBUG 3204 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-13 13:06:16.036  INFO 3204 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-10-13 13:06:16.045  INFO 3204 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-10-13 13:06:16.048  INFO 3204 --- [restartedMain] com.xiexin.SmartfoodApplication          : Started SmartfoodApplication in 0.445 seconds (JVM running for 32.317)
+2021-10-13 13:06:16.050  INFO 3204 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-10-13 13:06:41.599  INFO 3204 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-13 13:06:41.599  INFO 3204 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-13 13:06:41.600 DEBUG 3204 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-10-13 13:06:41.600 DEBUG 3204 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-10-13 13:06:41.600 DEBUG 3204 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-10-13 13:06:41.600 DEBUG 3204 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5f161e11
+2021-10-13 13:06:41.601 DEBUG 3204 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@3dd2f03c
+2021-10-13 13:06:41.601 DEBUG 3204 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-10-13 13:06:41.601  INFO 3204 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-10-13 13:06:41.658 DEBUG 3204 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/login.jsp;jsessionid=8EC270F02CAB1D3E715C3AB541EA1A9E", parameters={}
+2021-10-13 13:06:41.663 DEBUG 3204 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-13 13:06:41.665 DEBUG 3204 --- [http-nio-9090-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-10-13 13:06:41.666 DEBUG 3204 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-10-13 13:06:41.680 DEBUG 3204 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-10-13 13:06:41.681 DEBUG 3204 --- [http-nio-9090-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2021-10-13 13:06:41.702 DEBUG 3204 --- [http-nio-9090-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2021-10-13 13:06:41.705 DEBUG 3204 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-10-13 13:06:41.832 DEBUG 3204 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/login.jsp", parameters={}
+2021-10-13 13:06:41.832 DEBUG 3204 --- [http-nio-9090-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-13 13:06:41.833 DEBUG 3204 --- [http-nio-9090-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-10-13 13:06:41.833 DEBUG 3204 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-10-13 13:06:41.833 DEBUG 3204 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-10-13 13:06:41.834 DEBUG 3204 --- [http-nio-9090-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-10-13 13:06:41.883 DEBUG 3204 --- [http-nio-9090-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-10-13 13:06:41.883 DEBUG 3204 --- [http-nio-9090-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Oct 13 13:06:41 CST 2021, status=404, error=Not Found, message=No message available,  (truncated)...]
+2021-10-13 13:06:41.927 DEBUG 3204 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-10-13 13:06:56.038 DEBUG 3204 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/login.jsp", parameters={}
+2021-10-13 13:06:56.038 DEBUG 3204 --- [http-nio-9090-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-13 13:06:56.114 DEBUG 3204 --- [http-nio-9090-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-10-13 13:06:56.115 DEBUG 3204 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-10-13 13:06:56.115 DEBUG 3204 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-10-13 13:06:56.115 DEBUG 3204 --- [http-nio-9090-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2021-10-13 13:06:56.121 DEBUG 3204 --- [http-nio-9090-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2021-10-13 13:06:56.121 DEBUG 3204 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-10-13 13:07:05.401 DEBUG 3204 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/login.jsp", parameters={}
+2021-10-13 13:07:05.402 DEBUG 3204 --- [http-nio-9090-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-13 13:07:05.403 DEBUG 3204 --- [http-nio-9090-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-10-13 13:07:05.403 DEBUG 3204 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-10-13 13:07:05.403 DEBUG 3204 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-10-13 13:07:05.403 DEBUG 3204 --- [http-nio-9090-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2021-10-13 13:07:05.408 DEBUG 3204 --- [http-nio-9090-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2021-10-13 13:07:05.409 DEBUG 3204 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-10-13 13:07:19.710 DEBUG 3204 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/login.jsp", parameters={}
+2021-10-13 13:07:19.711 DEBUG 3204 --- [http-nio-9090-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-13 13:07:19.712 DEBUG 3204 --- [http-nio-9090-exec-10] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-10-13 13:07:19.712 DEBUG 3204 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-10-13 13:07:19.713 DEBUG 3204 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-10-13 13:07:19.713 DEBUG 3204 --- [http-nio-9090-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2021-10-13 13:07:19.722 DEBUG 3204 --- [http-nio-9090-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2021-10-13 13:07:19.722 DEBUG 3204 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-10-13 13:07:30.248 DEBUG 3204 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/page/vuelogin", parameters={}
+2021-10-13 13:07:30.249 DEBUG 3204 --- [http-nio-9090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xiexin.controller.PageController#vuelogin()
+2021-10-13 13:07:30.251 DEBUG 3204 --- [http-nio-9090-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2021-10-13 13:07:30.537 DEBUG 3204 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-13 13:07:41.598 DEBUG 3204 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/admin/loginByShiro", parameters={}
+2021-10-13 13:07:41.599 DEBUG 3204 --- [http-nio-9090-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xiexin.controller.AdminController#loginByShiro(Admin)
+2021-10-13 13:07:41.620 DEBUG 3204 --- [http-nio-9090-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.xiexin.bean.Admin@5a8d983f]
+2021-10-13 13:07:42.058 DEBUG 3204 --- [http-nio-9090-exec-3] com.xiexin.dao.AdminDAO.selectByExample  : ==>  Preparing: select admin_id, admin_name, admin_pwd, admin_phone, admin_account, salt, tiwen, `status` from admin WHERE ( admin_account = ? )
+2021-10-13 13:07:42.078 DEBUG 3204 --- [http-nio-9090-exec-3] com.xiexin.dao.AdminDAO.selectByExample  : ==> Parameters: hopu01(String)
+2021-10-13 13:07:42.092 DEBUG 3204 --- [http-nio-9090-exec-3] com.xiexin.dao.AdminDAO.selectByExample  : <==      Total: 1
+2021-10-13 13:07:42.108 DEBUG 3204 --- [http-nio-9090-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-10-13 13:07:42.108 DEBUG 3204 --- [http-nio-9090-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=0, msg=登录成功, data=null)]
+2021-10-13 13:07:42.108 DEBUG 3204 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-13 13:07:42.122 DEBUG 3204 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/page/studentList", parameters={}
+2021-10-13 13:07:42.122 DEBUG 3204 --- [http-nio-9090-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xiexin.controller.PageController#studentList()
+2021-10-13 13:07:42.123 DEBUG 3204 --- [http-nio-9090-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2021-10-13 13:07:42.143 DEBUG 3204 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-13 13:07:42.163 DEBUG 3204 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/vue.js", parameters={}
+2021-10-13 13:07:42.164 DEBUG 3204 --- [http-nio-9090-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-13 13:07:42.167 DEBUG 3204 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/axios.min.js", parameters={}
+2021-10-13 13:07:42.168 DEBUG 3204 --- [http-nio-9090-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-13 13:07:42.188 DEBUG 3204 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-13 13:07:42.203 DEBUG 3204 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-13 13:07:42.471 DEBUG 3204 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/student/selectPageAll?page=1&limit=10&studentSex=&studentName=", parameters={masked}
+2021-10-13 13:07:42.471 DEBUG 3204 --- [http-nio-9090-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xiexin.controller.StudentController#selectPageAll(Student, Integer, Integer)
+2021-10-13 13:07:42.641 DEBUG 3204 --- [http-nio-9090-exec-7] c.x.d.StudentDAO.selectByExample_COUNT   : ==>  Preparing: SELECT count(0) FROM student
+2021-10-13 13:07:42.641 DEBUG 3204 --- [http-nio-9090-exec-7] c.x.d.StudentDAO.selectByExample_COUNT   : ==> Parameters: 
+2021-10-13 13:07:42.643 DEBUG 3204 --- [http-nio-9090-exec-7] c.x.d.StudentDAO.selectByExample_COUNT   : <==      Total: 1
+2021-10-13 13:07:42.644 DEBUG 3204 --- [http-nio-9090-exec-7] c.xiexin.dao.StudentDAO.selectByExample  : ==>  Preparing: select student_id, student_name, student_sex, student_card_id, student_phone, student_address, student_come_date from student LIMIT ?
+2021-10-13 13:07:42.644 DEBUG 3204 --- [http-nio-9090-exec-7] c.xiexin.dao.StudentDAO.selectByExample  : ==> Parameters: 10(Integer)
+2021-10-13 13:07:42.647 DEBUG 3204 --- [http-nio-9090-exec-7] c.xiexin.dao.StudentDAO.selectByExample  : <==      Total: 10
+2021-10-13 13:07:42.648 DEBUG 3204 --- [http-nio-9090-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-10-13 13:07:42.648 DEBUG 3204 --- [http-nio-9090-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=20000, msg=操作成功, data=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, t (truncated)...]
+2021-10-13 13:07:42.658 DEBUG 3204 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-13 13:07:52.517 DEBUG 3204 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/page/vueregin", parameters={}
+2021-10-13 13:07:52.518 DEBUG 3204 --- [http-nio-9090-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xiexin.controller.PageController#vueregin()
+2021-10-13 13:07:52.518 DEBUG 3204 --- [http-nio-9090-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2021-10-13 13:07:52.521 DEBUG 3204 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-13 13:07:52.539 DEBUG 3204 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/element-ui-2.13.2.css", parameters={}
+2021-10-13 13:07:52.540 DEBUG 3204 --- [http-nio-9090-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-13 13:07:52.541 DEBUG 3204 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/vue.js", parameters={}
+2021-10-13 13:07:52.542 DEBUG 3204 --- [http-nio-9090-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-13 13:07:52.542 DEBUG 3204 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/element-ui-2.13.2.js", parameters={}
+2021-10-13 13:07:52.542 DEBUG 3204 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/axios.min.js", parameters={}
+2021-10-13 13:07:52.542 DEBUG 3204 --- [http-nio-9090-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-13 13:07:52.542 DEBUG 3204 --- [http-nio-9090-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2021-10-13 13:07:52.546 DEBUG 3204 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-13 13:07:52.553 DEBUG 3204 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-13 13:07:52.670 DEBUG 3204 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-13 13:07:52.684 DEBUG 3204 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-10-13 13:08:14.960 DEBUG 3204 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/admin/insertByShiro", parameters={}
+2021-10-13 13:08:14.960 DEBUG 3204 --- [http-nio-9090-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.xiexin.controller.AdminController#insertByShiro(Admin)
+2021-10-13 13:08:14.960 DEBUG 3204 --- [http-nio-9090-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.xiexin.bean.Admin@20ef9c79]
+2021-10-13 13:08:14.962 DEBUG 3204 --- [http-nio-9090-exec-3] com.xiexin.dao.AdminDAO.insertSelective  : ==>  Preparing: insert into admin ( admin_name, admin_pwd, admin_phone, admin_account, salt, tiwen, `status` ) values ( ?, ?, ?, ?, ?, ?, ? )
+2021-10-13 13:08:14.963 DEBUG 3204 --- [http-nio-9090-exec-3] com.xiexin.dao.AdminDAO.insertSelective  : ==> Parameters: daqiao(String), 8d1599548baff6e3e6c449ee7ffd1576(String), (String), daqiaoa(String), 5J78o4GY(String), 0.0(Double), 0(Integer)
+2021-10-13 13:08:15.255 DEBUG 3204 --- [http-nio-9090-exec-3] com.xiexin.dao.AdminDAO.insertSelective  : <==    Updates: 1
+2021-10-13 13:08:15.256 DEBUG 3204 --- [http-nio-9090-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-10-13 13:08:15.256 DEBUG 3204 --- [http-nio-9090-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [Result(code=20000, msg=操作成功, data=null)]
+2021-10-13 13:08:15.256 DEBUG 3204 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK

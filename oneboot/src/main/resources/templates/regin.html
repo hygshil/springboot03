@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <script src="/vue.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <script src="/axios.min.js"></script>
+</head>
+<body>
+<div id="app">
+    <template>
+        <div>
+            <el-form>
+                <el-form-item label="请输入账户" style="width: 25%">
+                    <el-input v-model="admin.adminName"></el-input>
+                </el-form-item>
+                <el-form-item label="请输入密码" style="width: 25%">
+                    <el-input  v-model="admin.adminPwd"></el-input>
+                </el-form-item>
+                <el-form-item label="公司" style="width: 25%">
+                    <el-input  v-model="admin.adminAccount"></el-input>
+                </el-form-item>
+
+                <el-form-item>
+                    <el-button type="primary" @click="reginBtn">注册</el-button>
+                </el-form-item>
+            </el-form>
+        </div>
+        <!--表格-->
+    </template>
+</div>
+
+<script>
+    var vm = new Vue({
+        el: "#app",
+        data: {
+            admin:{
+                adminName:"",
+                adminPwd:'',
+                adminAccount:'',
+            },
+            input: ''
+        },
+        methods: {
+            reginBtn:function(){
+                alert("点击了注册")
+                axios.get("/admin/insert", {
+                    params: {
+                        adminName:this.admin.adminName,
+                        adminPwd:this.admin.adminPwd,
+                        adminAccount:this.admin.adminAccount,
+                    }
+                }).then(res=> {
+                    console.log(res)
+                    //把json数组赋值给tableData
+                    window.location.href="/page/studentList";
+            });
+            },
+
+        },
+
+        // created:function () {
+        //     //页面一加载就要访问url  /student/selectAll
+        //
+        // }
+    })
+</script>
+</body>
+</html>

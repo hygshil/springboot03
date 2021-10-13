@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="/element-ui-2.13.2.css">
+    <script src="/vue.js"></script>
+    <script src="/element-ui-2.13.2.js"></script>
+    <script src="/axios.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css"> <!-- 引入样式 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>   <!-- 引入组件库 -->
+<body>
+<div id="app">
+
+    <el-row>
+        <el-input placeholder="请输入用户名"  v-model="adminName"></el-input><br>
+        <el-input placeholder="请输入账户"  v-model="account"></el-input><br>
+        <el-input placeholder="请输入密码"  v-model="pwd"></el-input><br>
+    </el-row>
+    <el-row>
+        <el-button type="primary" @click="regin">注册</el-button>
+    </el-row>
+</div>
+<script>
+    var vm = new Vue({
+        el:"#app",
+        data:{
+            phone:'',
+            adminName:'',
+            account:'',
+            pwd:'',
+        },
+        methods:{
+            regin:function (){
+                //调用axios 发送到后台
+                ///admin/registsByShiro
+                axios.post("/admin/insertByShiro",{
+                    adminName:this.adminName,
+                    adminAccount:this.account,
+                    adminPwd:this.pwd,
+                    adminPhone:this.phone
+                }).then(res =>{
+                    console.log(res)
+                    if(res.data.code==20000){
+                    this.$alert('注册成功', '注册成功', {
+                        confirmButtonText: '确定',
+                        callback: action => {
+                    }
+                });
+                }else{
+                    this.$alert('注册失败', '注册失败', {
+                        confirmButtonText: '确定',
+                        callback: action => {
+                        this.$message({
+                            type: '请重新输入',
+                            message: `action: ${ action }`
+                        });
+                }
+                });
+                }
+            });
+            }
+        }
+    })
+</script>
+</body>
+</html>
